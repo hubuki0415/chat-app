@@ -15,5 +15,7 @@ RSpec.describe Room, type: :model do
       @room.valid?
       expect(@room.errors.full_messages).to include("Name can't be blank")
     end
+
+    
   end
 end
